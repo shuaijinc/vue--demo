@@ -1,0 +1,20 @@
+{
+  "name": "supervideo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-packager . SuperVideo --overwrite --win --arch=x64 --out ./out --electron-version 12.2.0 --icon=./logo.ico --extra-resource ./ffp --ignore ffp --asar"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.2.0",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.8"
+  }
+}
